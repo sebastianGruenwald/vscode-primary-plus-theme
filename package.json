@@ -8,6 +8,10 @@
   "engines": {
     "vscode": "^1.80.0"
   },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "categories": [
     "Themes"
   ],
@@ -36,6 +40,11 @@
         "label": "Primary Plus Light",
         "uiTheme": "vs",
         "path": "./themes/primary-plus-light-color-theme.json"
+      },
+      {
+        "label": "Primary Plus Light Warm",
+        "uiTheme": "vs",
+        "path": "./themes/primary-plus-light-warm-color-theme.json"
       }
     ]
   }
