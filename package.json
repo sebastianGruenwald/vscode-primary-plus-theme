@@ -1,0 +1,42 @@
+{
+  "name": "primary-plus",
+  "displayName": "Primary Plus",
+  "description": "Warm, old-school VS Code theme inspired by Obsidian Primary. Boosted contrast on borders and selections for real visibility.",
+  "version": "1.0.0",
+  "publisher": "your-publisher-id",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "warm",
+    "primary",
+    "obsidian",
+    "retro",
+    "bauhaus",
+    "dark",
+    "light"
+  ],
+  "galleryBanner": {
+    "color": "#28211B",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Primary Plus Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/primary-plus-dark-color-theme.json"
+      },
+      {
+        "label": "Primary Plus Light",
+        "uiTheme": "vs",
+        "path": "./themes/primary-plus-light-color-theme.json"
+      }
+    ]
+  }
+}
