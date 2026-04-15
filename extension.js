@@ -8,6 +8,9 @@ function activate(context) {
 }
 
 function applyWorkspaceAccentColor(context) {
+    const enabled = vscode.workspace.getConfiguration('primaryPlus').get('workspaceAccentColor');
+    if (!enabled) return;
+
     const folders = vscode.workspace.workspaceFolders;
     if (!folders || folders.length === 0) return;
 

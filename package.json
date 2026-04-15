@@ -3,7 +3,7 @@
   "displayName": "Primary Plus",
   "description": "Warm, old-school VS Code theme inspired by Obsidian Primary. Boosted contrast on borders and selections for real visibility.",
   "version": "1.0.0",
-  "publisher": "your-publisher-id",
+  "publisher": "Waschtlgrea",
   "license": "MIT",
   "engines": {
     "vscode": "^1.80.0"
@@ -30,6 +30,16 @@
     "theme": "dark"
   },
   "contributes": {
+    "configuration": {
+      "title": "Primary Plus",
+      "properties": {
+        "primaryPlus.workspaceAccentColor": {
+          "type": "boolean",
+          "default": false,
+          "description": "Automatically tint the status bar with a unique accent color derived from the workspace name."
+        }
+      }
+    },
     "themes": [
       {
         "label": "Primary Plus Dark",
