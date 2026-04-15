@@ -41,6 +41,11 @@ Search for **Primary Plus** in the VS Code Extension Marketplace, or install fro
 code --install-extension Waschtlgrea.primary-plus
 ```
 
+## Links
+
+- [GitHub Repository](https://github.com/sebastianGruenwald/vscode-primary-plus-theme)
+- [Changelog](CHANGELOG.md)
+
 ## License
 
 [MIT](LICENSE)

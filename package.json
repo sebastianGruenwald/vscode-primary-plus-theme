@@ -5,6 +5,10 @@
   "version": "1.0.0",
   "publisher": "Waschtlgrea",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastianGruenwald/vscode-primary-plus-theme.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
